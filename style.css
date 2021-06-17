@@ -60,8 +60,8 @@ body {
 
 /* Container part */
 .container {
-  width: 300px;
-  margin: 0 auto;
+  width: 90%;
+  margin: 0 auto 40px auto;
   background-color: var(--white);
   border-radius: 5px;
   box-shadow: 2px 2px 20px 2px hsl(0, 0%, 87%);
@@ -209,16 +209,19 @@ input:checked + .slider {
     display: none;
 }
 .discount {
+  width: 12%;
+  height: auto;
     font-size: 10px;
     color: var(--light-red);
     font-weight: 600;
     background-color: var(--light-grayish-red);
-    padding: 2px 8px;
+    margin: auto 0;
+    padding: 5px 0;
     border-radius: 50px;
 }
 /* gray line */
 .line {
-    width: 298px;
+    width: 100%;
     border: 1px solid var(--light-grayish-blue);
     margin: 40px 0 25px 0;
 }
